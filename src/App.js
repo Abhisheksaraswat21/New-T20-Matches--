@@ -20,10 +20,7 @@ function App() {
       .catch((error) => alert("could not load the data"));
   }, []);
 
-  /*
-jese hi app fucnton render hoga ye useeffect function chalega and getmatches call hojayega
-isme data api.jsse aarha hai
-*/
+ 
 
   return (
     <div className="App">
@@ -53,33 +50,3 @@ isme data api.jsse aarha hai
 
 export default App;
 
-/*
-ye humne matrial uin ki help se lia hai...jiska variant outlined ya contained kuch bhi hai
- <Button variant="contained" color="primary">CLick</Button> ye color ye sb hume material ui se pta chala
-
-
-  <Navbar />  isk mtlb hai ki navbar hume wo dega yaha jo navbar.js me humne return me daala hai
-
- getMatches()
-      .then((data) => setMatches(data.matches))
-      iski wajah se usestate wale me matches array me saare matches ki details aajayegi
-
-
- {matches.map((match) => (
-        <MyCard match="match" /> 
-        isse matches array me loop lag gya aur hr baar ek match pass horha hai mycard me
-
- <Grid sm="6"> iska mtlb hume small ke upar 6 grid chahiye
-
-
-
- {match.type == "Twenty20" ? (
-                <MyCard key={match.unique_id} match={match} />
-              ) : (
-                ""
-              )}
-              kuch ni hai ye bs ternary operator lga hua hai...baaki normal hi hai
-
-
-
-*/
