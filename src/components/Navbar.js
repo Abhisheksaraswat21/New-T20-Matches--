@@ -17,13 +17,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-/*
-isme appbar toolbar  typography sb material ui se lia hai...typography is used for  entering text
-toolbar se neeli line aai upar ...aur live score humne typography se likha hai
-
-iconbutton se hum icon use kr paate hai...fir menuicon se hum top left me menu icon use krrhe hai
-// inherit se white color milega
-
-
-
-*/
