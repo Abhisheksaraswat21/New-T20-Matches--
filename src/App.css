@@ -1,3 +1,21 @@
+body {
+  background: #e2e2e2;
+  background-image: url("../src/assets/back2.jpg");
+}
+
+.card-style {
+  transition: background-color 5s;
+}
+.card-style:hover {
+  background-color: #85df7c;
+}
+
+.team-name {
+  color: red;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
 .App {
   text-align: center;
 }
