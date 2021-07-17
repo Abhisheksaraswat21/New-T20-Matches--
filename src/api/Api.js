@@ -17,7 +17,7 @@ export const getMatches = () => {
 
 //load match details
 export const getMatchDetail = (id) => {
-  const url = `https://cricapi.com/api/cricketScore?unique_id=${id}&apikey=${API_KEY}`; //url me humne cricket score daal dia matches i jagah ...aur hume ha pe apikey bhi chahiye the to wo bhi le liya hai
+  const url = `https://cricapi.com/api/cricketScore?unique_id=${id}&apikey=${API_KEY}`; 
 
   return fetch(url)
     .then((response) => response.json())
